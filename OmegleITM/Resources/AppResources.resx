@@ -1,0 +1,357 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ResourceFlowDirection" xml:space="preserve">
+    <value>LeftToRight</value>
+    <comment>Controls the FlowDirection for all elements in the RootFrame. Set to the traditional direction of this resource file's language</comment>
+  </data>
+  <data name="ResourceLanguage" xml:space="preserve">
+    <value>en-US</value>
+    <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
+  </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>OMEDDLE</value>
+  </data>
+  <data name="AppBarButtonText" xml:space="preserve">
+    <value>topics</value>
+  </data>
+  <data name="TerminateText" xml:space="preserve">
+    <value>terminate</value>
+  </data>
+  <data name="ChatModeText" xml:space="preserve">
+    <value>chat</value>
+  </data>
+  <data name="InterceptModeText" xml:space="preserve">
+    <value>intercept</value>
+  </data>
+  <data name="MenuTitle" xml:space="preserve">
+    <value>mode select</value>
+  </data>
+  <data name="QuestionModeText" xml:space="preserve">
+    <value>question</value>
+  </data>
+  <data name="NewChatText" xml:space="preserve">
+    <value>New Chat</value>
+  </data>
+  <data name="SendText" xml:space="preserve">
+    <value>Send</value>
+  </data>
+  <data name="TypingText" xml:space="preserve">
+    <value>Stranger {0} is typing </value>
+  </data>
+  <data name="WaitingText" xml:space="preserve">
+    <value>waiting...</value>
+  </data>
+  <data name="ConfirmPrompt" xml:space="preserve">
+    <value>Really disconnect?</value>
+  </data>
+  <data name="ConfirmTitle" xml:space="preserve">
+    <value>Confirm Exit</value>
+  </data>
+  <data name="ConnectingText" xml:space="preserve">
+    <value>Connecting to Stranger {0} </value>
+  </data>
+  <data name="ConnectionError" xml:space="preserve">
+    <value>Error communicating with Omegle server!</value>
+  </data>
+  <data name="DisconnectedText" xml:space="preserve">
+    <value>Stranger {0} disconnected </value>
+  </data>
+  <data name="TopicPageTitle" xml:space="preserve">
+    <value>topics</value>
+  </data>
+  <data name="ClearText" xml:space="preserve">
+    <value>clear</value>
+  </data>
+  <data name="AddNewText" xml:space="preserve">
+    <value>add new</value>
+  </data>
+  <data name="InterceptListText" xml:space="preserve">
+    <value>intercept list</value>
+  </data>
+  <data name="AboutApp" xml:space="preserve">
+    <value>"Omegle" is property of Omegle.com. This is not an official Omegle app.
+Omeddle code © 2014 Andrew D'Angelo
+Thanks to cryzed for OmeglePCL base and Borhan for proxy server!</value>
+  </data>
+  <data name="AboutText" xml:space="preserve">
+    <value>about omeddle</value>
+  </data>
+  <data name="ChangedText" xml:space="preserve">
+    <value>changed</value>
+  </data>
+  <data name="ExampleText" xml:space="preserve">
+    <value>examples</value>
+  </data>
+  <data name="WordPageTitle" xml:space="preserve">
+    <value>wordlist</value>
+  </data>
+  <data name="AnswerQuestionText" xml:space="preserve">
+    <value>answer question</value>
+  </data>
+  <data name="AskQuestionText" xml:space="preserve">
+    <value>ask question</value>
+  </data>
+  <data name="ConnectedText" xml:space="preserve">
+    <value>Stranger {0} connected!</value>
+  </data>
+  <data name="QuestionListText" xml:space="preserve">
+    <value>questions</value>
+  </data>
+  <data name="SendFeedbackText" xml:space="preserve">
+    <value>send feedback</value>
+  </data>
+  <data name="SendPhotoText" xml:space="preserve">
+    <value>send photo</value>
+  </data>
+  <data name="ShareText" xml:space="preserve">
+    <value>share chat</value>
+  </data>
+  <data name="YouBothLikeText" xml:space="preserve">
+    <value>You both like {0}</value>
+  </data>
+  <data name="YouDisconnectedText" xml:space="preserve">
+    <value>You disconnected</value>
+  </data>
+  <data name="GotQuestionText" xml:space="preserve">
+    <value>Question to discuss:
+{0}</value>
+  </data>
+  <data name="SettingsText" xml:space="preserve">
+    <value>settings</value>
+  </data>
+  <data name="UsersOnlineText" xml:space="preserve">
+    <value>{0} users online</value>
+  </data>
+  <data name="RecaptchaRequiredText" xml:space="preserve">
+    <value>Recaptcha required</value>
+  </data>
+  <data name="RetryText" xml:space="preserve">
+    <value>Retry</value>
+  </data>
+  <data name="ShareErrorText" xml:space="preserve">
+    <value>There was an error when trying to share your chat</value>
+  </data>
+  <data name="ShareLinkText" xml:space="preserve">
+    <value>Check out this chat from Omeddle!</value>
+  </data>
+  <data name="ShareTitleFormatText" xml:space="preserve">
+    <value>Omeddle Chat on {0} at {1}</value>
+  </data>
+  <data name="StrangerText" xml:space="preserve">
+    <value>Stranger {0}</value>
+  </data>
+  <data name="SubmitText" xml:space="preserve">
+    <value>Submit</value>
+  </data>
+  <data name="SystemText" xml:space="preserve">
+    <value>System</value>
+  </data>
+  <data name="YouText" xml:space="preserve">
+    <value>You</value>
+  </data>
+  <data name="CopyImageText" xml:space="preserve">
+    <value>copy url</value>
+  </data>
+  <data name="DeleteAllImagesConfirmation" xml:space="preserve">
+    <value>Are you sure you want to delete all images?</value>
+  </data>
+  <data name="DeleteAllImagesText" xml:space="preserve">
+    <value>delete all images</value>
+  </data>
+  <data name="DeleteText" xml:space="preserve">
+    <value>delete</value>
+  </data>
+  <data name="DeletingText" xml:space="preserve">
+    <value>Deleting</value>
+  </data>
+  <data name="ImageDeleteErrorText" xml:space="preserve">
+    <value>Error deleting image!</value>
+  </data>
+  <data name="ImgurApiKey" xml:space="preserve">
+    <value>0da5b04361f8438</value>
+  </data>
+  <data name="InsertImageText" xml:space="preserve">
+    <value>insert previous image link</value>
+  </data>
+  <data name="OpenText" xml:space="preserve">
+    <value>open</value>
+  </data>
+  <data name="RegexExampleText" xml:space="preserve">
+    <value>Put a word to find in the first box and the text to replace the mached word in the second.
+You can also try using regexes to match text. For example, "(\d+)" matches any number, which is useful for changing ages.</value>
+  </data>
+  <data name="SharedImagesText" xml:space="preserve">
+    <value>imgur image management...</value>
+  </data>
+  <data name="UploadingText" xml:space="preserve">
+    <value>Uploading data </value>
+  </data>
+  <data name="LiveTileText" xml:space="preserve">
+    <value>use live tile</value>
+  </data>
+  <data name="NoQuestionsError" xml:space="preserve">
+    <value>You'll need to enter and/or enable at least one question before entering Ask mode!</value>
+  </data>
+  <data name="StrangersConnectedText" xml:space="preserve">
+    <value>Strangers connected!</value>
+  </data>
+  <data name="UpdateLiveTileText" xml:space="preserve">
+    <value>refresh live tile</value>
+  </data>
+  <data name="StrangersConnectingText" xml:space="preserve">
+    <value>Connecting to strangers</value>
+  </data>
+  <data name="SendToText" xml:space="preserve">
+    <value>send to {0}</value>
+  </data>
+  <data name="CopyText" xml:space="preserve">
+    <value>copy</value>
+  </data>
+  <data name="ShareFromLibraryText" xml:space="preserve">
+    <value>share from library</value>
+  </data>
+  <data name="TakePhotoText" xml:space="preserve">
+    <value>take photo</value>
+  </data>
+  <data name="AutoSolveText" xml:space="preserve">
+    <value>Auto Solve ({0} remaining)</value>
+  </data>
+  <data name="AutoSolveFailedText" xml:space="preserve">
+    <value>The auto-solving failed. This happens about 10% of the time. Naturally, you will not lose auto-solving credit for this. You can request another auto-solve, or try again manually.</value>
+  </data>
+  <data name="UseCustomHostText" xml:space="preserve">
+    <value>use custom host</value>
+  </data>
+  <data name="SaveText" xml:space="preserve">
+    <value>save</value>
+  </data>
+  <data name="LogPageText" xml:space="preserve">
+    <value>chatlogs</value>
+  </data>
+  <data name="MessageCountText" xml:space="preserve">
+    <value>messages</value>
+  </data>
+  <data name="RecentText" xml:space="preserve">
+    <value>recent</value>
+  </data>
+  <data name="SavedText" xml:space="preserve">
+    <value>saved</value>
+  </data>
+</root>

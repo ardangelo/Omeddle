@@ -1,0 +1,4 @@
+C:\Users\Andrew\Sync\Files\Code\vs\Projects\OmegleITM\OmegleITM\Omeddle.csproj;neutral
+C:\Users\Andrew\Sync\Files\Code\vs\Projects\OmegleITM\OmeglePCL\Omegle.csproj;neutral
+C:\Users\Andrew\Sync\Files\Code\vs\Projects\OmegleITM\OmeglePCL\Omegle.csproj;neutral
+C:\Users\Andrew\Sync\Files\Code\vs\Projects\OmegleITM\TileUpdateAgent\TileUpdateAgent.csproj;neutral

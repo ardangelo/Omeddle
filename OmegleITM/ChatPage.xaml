@@ -1,0 +1,81 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="Omeddle.ChatPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:toolkit="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls.Toolkit"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d"
+    shell:SystemTray.IsVisible="True"
+    xmlns:c4fToolkit="clr-namespace:Coding4Fun.Toolkit.Controls;assembly=Coding4Fun.Toolkit.Controls">
+    
+    <shell:SystemTray.ProgressIndicator>
+        <shell:ProgressIndicator x:Name="TypingIndicator" IsIndeterminate="True" IsVisible="False"/>
+    </shell:SystemTray.ProgressIndicator>
+
+    <toolkit:TransitionService.NavigationInTransition>
+        <toolkit:NavigationInTransition>
+            <toolkit:NavigationInTransition.Backward>
+                <toolkit:TurnstileTransition Mode="BackwardIn" />
+            </toolkit:NavigationInTransition.Backward>
+            <toolkit:NavigationInTransition.Forward>
+                <toolkit:TurnstileTransition Mode="ForwardIn" />
+            </toolkit:NavigationInTransition.Forward>
+        </toolkit:NavigationInTransition>
+    </toolkit:TransitionService.NavigationInTransition>
+    <toolkit:TransitionService.NavigationOutTransition>
+        <toolkit:NavigationOutTransition>
+            <toolkit:NavigationOutTransition.Backward>
+                <toolkit:TurnstileTransition Mode="BackwardOut" />
+            </toolkit:NavigationOutTransition.Backward>
+            <toolkit:NavigationOutTransition.Forward>
+                <toolkit:TurnstileTransition Mode="ForwardOut" />
+            </toolkit:NavigationOutTransition.Forward>
+        </toolkit:NavigationOutTransition>
+    </toolkit:TransitionService.NavigationOutTransition>
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot" Background="Transparent">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!--TitlePanel contains the name of the application and page title-->
+        <StackPanel Grid.Row="0" Margin="12,0,0,0">
+            <TextBlock x:Name="titleBar" Style="{StaticResource PhoneTextNormalStyle}" />
+        </StackPanel>
+
+        <!--ContentPanel - place additional content here-->
+        <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,12,12,0" HorizontalAlignment="Center">
+            <StackPanel>
+                <phone:LongListSelector Height="590" Width="440" x:Name="messageLLS" ItemsSource="{Binding messageList}" >
+                    <phone:LongListSelector.ItemTemplate>
+                        <DataTemplate>
+                            <StackPanel Width="320" HorizontalAlignment="{Binding ContainerAlignment}">
+                                <c4fToolkit:ChatBubble BorderBrush="{Binding Brush, Mode=TwoWay}" Background="{Binding Brush}" ChatBubbleDirection="{Binding Direction}">
+                                    <StackPanel Orientation="Vertical" Width="310">
+                                        <TextBlock Text="{Binding Text}" TextWrapping="Wrap"/>
+                                        <TextBlock Text="{Binding Time}" HorizontalAlignment="Right" Style="{StaticResource PhoneTextSubtleStyle}" />
+                                    </StackPanel>
+                                </c4fToolkit:ChatBubble>
+                            </StackPanel>
+                        </DataTemplate>
+                    </phone:LongListSelector.ItemTemplate>
+                </phone:LongListSelector>
+                <ContentControl x:Name="inputPanelControl" IsEnabled="False">
+                    <StackPanel x:Name ="inputPanel" Orientation="Horizontal">
+                        <c4fToolkit:ChatBubbleTextBox x:Name="messageEntryBox" Width="440" InputScope="Chat" GotFocus="messageEntryBox_GotFocus" LostFocus="messageEntryBox_LostFocus" KeyUp="messageEntryBox_KeyUp" />
+                    </StackPanel>
+                </ContentControl>
+            </StackPanel>
+        </Grid>
+    </Grid>
+
+</phone:PhoneApplicationPage>

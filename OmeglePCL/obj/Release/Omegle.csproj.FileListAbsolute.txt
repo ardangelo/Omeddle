@@ -1,0 +1,45 @@
+C:\Users\Andrew\Documents\Visual Studio 2013\Projects\OmegleITM\OmeglePCL\bin\Release\Omegle.dll.config
+C:\Users\Andrew\Documents\Visual Studio 2013\Projects\OmegleITM\OmeglePCL\bin\Release\Omegle.dll
+C:\Users\Andrew\Documents\Visual Studio 2013\Projects\OmegleITM\OmeglePCL\bin\Release\Omegle.pdb
+C:\Users\Andrew\Documents\Visual Studio 2013\Projects\OmegleITM\OmeglePCL\bin\Release\Newtonsoft.Json.dll
+C:\Users\Andrew\Documents\Visual Studio 2013\Projects\OmegleITM\OmeglePCL\bin\Release\System.Net.Http.dll
+C:\Users\Andrew\Documents\Visual Studio 2013\Projects\OmegleITM\OmeglePCL\bin\Release\System.Net.Http.Extensions.dll
+C:\Users\Andrew\Documents\Visual Studio 2013\Projects\OmegleITM\OmeglePCL\bin\Release\System.Net.Http.Primitives.dll
+C:\Users\Andrew\Documents\Visual Studio 2013\Projects\OmegleITM\OmeglePCL\bin\Release\Newtonsoft.Json.xml
+C:\Users\Andrew\Documents\Visual Studio 2013\Projects\OmegleITM\OmeglePCL\bin\Release\System.Net.Http.xml
+C:\Users\Andrew\Documents\Visual Studio 2013\Projects\OmegleITM\OmeglePCL\bin\Release\System.Net.Http.Extensions.xml
+C:\Users\Andrew\Documents\Visual Studio 2013\Projects\OmegleITM\OmeglePCL\bin\Release\System.Net.Http.Primitives.xml
+C:\Users\Andrew\Documents\Visual Studio 2013\Projects\OmegleITM\OmeglePCL\obj\Release\Omegle.csproj.App.config
+C:\Users\Andrew\Documents\Visual Studio 2013\Projects\OmegleITM\OmeglePCL\obj\Release\Omegle.dll
+C:\Users\Andrew\Documents\Visual Studio 2013\Projects\OmegleITM\OmeglePCL\obj\Release\Omegle.pdb
+C:\Users\Andrew\Documents\Visual Studio 2013\Projects\OmegleITM\OmeglePCL\obj\Release\Omegle.csprojResolveAssemblyReference.cache
+C:\Users\Andrew\SkyDrive\Documents\Visual Studio 2013\Projects\OmegleITM\OmeglePCL\bin\Release\Omegle.dll.config
+C:\Users\Andrew\SkyDrive\Documents\Visual Studio 2013\Projects\OmegleITM\OmeglePCL\bin\Release\Omegle.dll
+C:\Users\Andrew\SkyDrive\Documents\Visual Studio 2013\Projects\OmegleITM\OmeglePCL\bin\Release\Omegle.pdb
+C:\Users\Andrew\SkyDrive\Documents\Visual Studio 2013\Projects\OmegleITM\OmeglePCL\bin\Release\Newtonsoft.Json.dll
+C:\Users\Andrew\SkyDrive\Documents\Visual Studio 2013\Projects\OmegleITM\OmeglePCL\bin\Release\System.Net.Http.dll
+C:\Users\Andrew\SkyDrive\Documents\Visual Studio 2013\Projects\OmegleITM\OmeglePCL\bin\Release\System.Net.Http.Extensions.dll
+C:\Users\Andrew\SkyDrive\Documents\Visual Studio 2013\Projects\OmegleITM\OmeglePCL\bin\Release\System.Net.Http.Primitives.dll
+C:\Users\Andrew\SkyDrive\Documents\Visual Studio 2013\Projects\OmegleITM\OmeglePCL\bin\Release\Newtonsoft.Json.xml
+C:\Users\Andrew\SkyDrive\Documents\Visual Studio 2013\Projects\OmegleITM\OmeglePCL\bin\Release\System.Net.Http.xml
+C:\Users\Andrew\SkyDrive\Documents\Visual Studio 2013\Projects\OmegleITM\OmeglePCL\bin\Release\System.Net.Http.Extensions.xml
+C:\Users\Andrew\SkyDrive\Documents\Visual Studio 2013\Projects\OmegleITM\OmeglePCL\bin\Release\System.Net.Http.Primitives.xml
+C:\Users\Andrew\SkyDrive\Documents\Visual Studio 2013\Projects\OmegleITM\OmeglePCL\obj\Release\Omegle.csproj.App.config
+C:\Users\Andrew\SkyDrive\Documents\Visual Studio 2013\Projects\OmegleITM\OmeglePCL\obj\Release\Omegle.dll
+C:\Users\Andrew\SkyDrive\Documents\Visual Studio 2013\Projects\OmegleITM\OmeglePCL\obj\Release\Omegle.pdb
+C:\Users\Andrew\SkyDrive\Documents\Visual Studio 2013\Projects\OmegleITM\OmeglePCL\obj\Release\Omegle.csprojResolveAssemblyReference.cache
+C:\Users\Andrew\Sync\Files\Code\vs\Projects\OmegleITM\OmeglePCL\bin\Release\Omegle.dll.config
+C:\Users\Andrew\Sync\Files\Code\vs\Projects\OmegleITM\OmeglePCL\bin\Release\Omegle.dll
+C:\Users\Andrew\Sync\Files\Code\vs\Projects\OmegleITM\OmeglePCL\bin\Release\Omegle.pdb
+C:\Users\Andrew\Sync\Files\Code\vs\Projects\OmegleITM\OmeglePCL\bin\Release\Newtonsoft.Json.dll
+C:\Users\Andrew\Sync\Files\Code\vs\Projects\OmegleITM\OmeglePCL\bin\Release\System.Net.Http.dll
+C:\Users\Andrew\Sync\Files\Code\vs\Projects\OmegleITM\OmeglePCL\bin\Release\System.Net.Http.Extensions.dll
+C:\Users\Andrew\Sync\Files\Code\vs\Projects\OmegleITM\OmeglePCL\bin\Release\System.Net.Http.Primitives.dll
+C:\Users\Andrew\Sync\Files\Code\vs\Projects\OmegleITM\OmeglePCL\bin\Release\Newtonsoft.Json.xml
+C:\Users\Andrew\Sync\Files\Code\vs\Projects\OmegleITM\OmeglePCL\bin\Release\System.Net.Http.xml
+C:\Users\Andrew\Sync\Files\Code\vs\Projects\OmegleITM\OmeglePCL\bin\Release\System.Net.Http.Extensions.xml
+C:\Users\Andrew\Sync\Files\Code\vs\Projects\OmegleITM\OmeglePCL\bin\Release\System.Net.Http.Primitives.xml
+C:\Users\Andrew\Sync\Files\Code\vs\Projects\OmegleITM\OmeglePCL\obj\Release\Omegle.csproj.App.config
+C:\Users\Andrew\Sync\Files\Code\vs\Projects\OmegleITM\OmeglePCL\obj\Release\Omegle.csprojResolveAssemblyReference.cache
+C:\Users\Andrew\Sync\Files\Code\vs\Projects\OmegleITM\OmeglePCL\obj\Release\Omegle.dll
+C:\Users\Andrew\Sync\Files\Code\vs\Projects\OmegleITM\OmeglePCL\obj\Release\Omegle.pdb

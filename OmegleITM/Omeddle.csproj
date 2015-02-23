@@ -1,0 +1,290 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5C436C04-FDB4-4A45-955A-C095420F2744}</ProjectGuid>
+    <ProjectTypeGuids>{C089C8C0-30E0-4E22-80C0-CE093F111A43};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Omeddle</RootNamespace>
+    <AssemblyName>OmegleITM</AssemblyName>
+    <TargetFrameworkIdentifier>WindowsPhone</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v8.1</TargetFrameworkVersion>
+    <SilverlightVersion>
+    </SilverlightVersion>
+    <SilverlightApplication>true</SilverlightApplication>
+    <SupportedCultures>de-DE</SupportedCultures>
+    <XapOutputs>true</XapOutputs>
+    <GenerateSilverlightManifest>true</GenerateSilverlightManifest>
+    <XapFilename>OmegleITM_$(Configuration)_$(Platform).xap</XapFilename>
+    <SilverlightManifestTemplate>Properties\AppManifest.xml</SilverlightManifestTemplate>
+    <SilverlightAppEntry>OmegleITM.App</SilverlightAppEntry>
+    <ValidateXaml>true</ValidateXaml>
+    <MinimumVisualStudioVersion>12.0</MinimumVisualStudioVersion>
+    <ThrowErrorsInValidation>true</ThrowErrorsInValidation>
+    <TargetFrameworkProfile />
+    <DefaultLanguage>en-US</DefaultLanguage>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;TRACE;SILVERLIGHT;WINDOWS_PHONE</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Bin\Release</OutputPath>
+    <DefineConstants>TRACE;SILVERLIGHT;WINDOWS_PHONE</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Bin\x86\Debug</OutputPath>
+    <DefineConstants>DEBUG;TRACE;SILVERLIGHT;WINDOWS_PHONE</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Bin\x86\Release</OutputPath>
+    <DefineConstants>TRACE;SILVERLIGHT;WINDOWS_PHONE</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|ARM' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Bin\ARM\Debug</OutputPath>
+    <DefineConstants>DEBUG;TRACE;SILVERLIGHT;WINDOWS_PHONE</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|ARM' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Bin\ARM\Release</OutputPath>
+    <DefineConstants>TRACE;SILVERLIGHT;WINDOWS_PHONE</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget />
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ChatTasks.cs" />
+    <Compile Include="ChatLoop.cs" />
+    <Compile Include="ChatPage.xaml.cs">
+      <DependentUpon>ChatPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ImagesPage.xaml.cs">
+      <DependentUpon>ImagesPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="LocalizedStrings.cs" />
+    <Compile Include="LogPage.xaml.cs">
+      <DependentUpon>LogPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RecaptchaDialog.xaml.cs">
+      <DependentUpon>RecaptchaDialog.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\AppResources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AppResources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SettingsPage.xaml.cs">
+      <DependentUpon>SettingsPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TopicPage.xaml.cs">
+      <DependentUpon>TopicPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WordPage.xaml.cs">
+      <DependentUpon>WordPage.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </ApplicationDefinition>
+    <Page Include="ChatPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ImagesPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="LogPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MainPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="RecaptchaDialog.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="SettingsPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="TopicPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WordPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <AppxManifest Include="Package.appxmanifest">
+      <SubType>Designer</SubType>
+    </AppxManifest>
+    <None Include="packages.config" />
+    <None Include="Properties\AppManifest.xml" />
+    <None Include="Properties\WMAppManifest.xml">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\add.png" />
+    <Content Include="Assets\AlignmentGrid.png" />
+    <Content Include="Assets\answer-01.png" />
+    <Content Include="Assets\BadgeLogo.png" />
+    <Content Include="Assets\book.png" />
+    <Content Include="Assets\camera.png" />
+    <Content Include="Assets\left.png" />
+    <Content Include="Assets\Logo.png" />
+    <Content Include="Assets\right.png" />
+    <Content Include="Assets\ask-01.png" />
+    <Content Include="Assets\clipboard.png" />
+    <Content Include="Assets\ApplicationIcon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\delete.png" />
+    <Content Include="Assets\edittext.png" />
+    <Content Include="Assets\globe.png" />
+    <Content Include="Assets\intercept-01.png" />
+    <Content Include="Assets\intercept.message.png" />
+    <Content Include="Assets\manage.png" />
+    <Content Include="Assets\message-01.png" />
+    <Content Include="Assets\people.groups.png" />
+    <Content Include="Assets\question.png" />
+    <Content Include="Assets\refresh.png" />
+    <Content Include="Assets\save.png" />
+    <Content Include="Assets\send.message.png" />
+    <Content Include="Assets\send.photo.png" />
+    <Content Include="Assets\settings.png" />
+    <Content Include="Assets\share.png" />
+    <Content Include="Assets\SplashScreen.png" />
+    <Content Include="Assets\SquareTile150x150.png" />
+    <Content Include="Assets\SquareTile71x71.png" />
+    <Content Include="Assets\StoreLogo.png" />
+    <Content Include="Assets\Tiles\FlipCycleTileLarge.png" />
+    <Content Include="Assets\Tiles\FlipCycleTileMedium.png" />
+    <Content Include="Assets\Tiles\FlipCycleTileSmall.png" />
+    <Content Include="Assets\Tiles\IconicTileMediumLarge.png" />
+    <Content Include="Assets\Tiles\IconicTileSmall.png" />
+    <Content Include="Assets\WideLogo.png" />
+    <Content Include="BugSense\BugSense - SDK License Agreement.txt" />
+    <Content Include="omeddle-large.png" />
+    <Content Include="omeddle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\AppResources.de-DE.resx" />
+    <EmbeddedResource Include="Resources\AppResources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>AppResources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="BugSense-WP8">
+      <HintPath>..\packages\BugSense.WP8.3.6.5.0\lib\wp8\BugSense-WP8.dll</HintPath>
+    </Reference>
+    <Reference Include="Coding4Fun.Toolkit.Controls, Version=2.0.7.0, Culture=neutral, PublicKeyToken=c5fd7b72b1a17ce4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Coding4Fun.Toolkit.Controls.2.0.7\lib\windowsphone8\Coding4Fun.Toolkit.Controls.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Phone.Controls, Version=8.0.0.0, Culture=neutral, PublicKeyToken=24eec0d8c86cda1e, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Phone.Controls.Toolkit">
+      <HintPath>..\packages\WPtoolkit.4.2013.08.16\lib\wp8\Microsoft.Phone.Controls.Toolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Newtonsoft.Json.6.0.3\lib\portable-net45+wp80+win8+wpa81\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http, Version=1.5.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Microsoft.Net.Http.2.2.22\lib\sl4-windowsphone71\System.Net.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.Extensions, Version=1.5.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Microsoft.Net.Http.2.2.22\lib\sl4-windowsphone71\System.Net.Http.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.Primitives, Version=1.5.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Microsoft.Net.Http.2.2.22\lib\sl4-windowsphone71\System.Net.Http.Primitives.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\OmeglePCL\Omegle.csproj">
+      <Project>{4C0AB845-3E01-4DC6-A118-24C8C2A48A6A}</Project>
+      <Name>Omegle</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TileUpdateAgent\TileUpdateAgent.csproj">
+      <Project>{3c283b8e-d184-443f-898b-5d5a8acce664}</Project>
+      <Name>TileUpdateAgent</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\$(TargetFrameworkIdentifier)\$(TargetFrameworkVersion)\Microsoft.$(TargetFrameworkIdentifier).$(TargetFrameworkVersion).Overrides.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\$(TargetFrameworkIdentifier)\$(TargetFrameworkVersion)\Microsoft.$(TargetFrameworkIdentifier).CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions />
+  <Import Project="..\packages\Microsoft.Bcl.Build.1.0.14\tools\Microsoft.Bcl.Build.targets" Condition="Exists('..\packages\Microsoft.Bcl.Build.1.0.14\tools\Microsoft.Bcl.Build.targets')" />
+  <Target Name="EnsureBclBuildImported" BeforeTargets="BeforeBuild" Condition="'$(BclBuildImported)' == ''">
+    <Error Condition="!Exists('..\packages\Microsoft.Bcl.Build.1.0.14\tools\Microsoft.Bcl.Build.targets')" Text="This project references NuGet package(s) that are missing on this computer. Enable NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=317567." HelpKeyword="BCLBUILD2001" />
+    <Error Condition="Exists('..\packages\Microsoft.Bcl.Build.1.0.14\tools\Microsoft.Bcl.Build.targets')" Text="The build restored NuGet packages. Build the project again to include these packages in the build. For more information, see http://go.microsoft.com/fwlink/?LinkID=317568." HelpKeyword="BCLBUILD2002" />
+  </Target>
+</Project>

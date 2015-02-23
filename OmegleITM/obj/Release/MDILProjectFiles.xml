@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Files>
+  <XAPFiles>
+    <File>resources.pri</File>
+    <File>OmegleITM.dll</File>
+    <File>de-DE\OmegleITM.resources.dll</File>
+    <File>de-DE\Microsoft.Phone.Controls.Toolkit.resources.dll</File>
+    <File>Assets\add.png</File>
+    <File>Assets\AlignmentGrid.png</File>
+    <File>Assets\answer-01.png</File>
+    <File>Assets\BadgeLogo.png</File>
+    <File>Assets\book.png</File>
+    <File>Assets\camera.png</File>
+    <File>Assets\left.png</File>
+    <File>Assets\Logo.png</File>
+    <File>Assets\right.png</File>
+    <File>Assets\ask-01.png</File>
+    <File>Assets\clipboard.png</File>
+    <File>Assets\ApplicationIcon.png</File>
+    <File>Assets\delete.png</File>
+    <File>Assets\edittext.png</File>
+    <File>Assets\globe.png</File>
+    <File>Assets\intercept-01.png</File>
+    <File>Assets\intercept.message.png</File>
+    <File>Assets\manage.png</File>
+    <File>Assets\message-01.png</File>
+    <File>Assets\people.groups.png</File>
+    <File>Assets\question.png</File>
+    <File>Assets\refresh.png</File>
+    <File>Assets\save.png</File>
+    <File>Assets\send.message.png</File>
+    <File>Assets\send.photo.png</File>
+    <File>Assets\settings.png</File>
+    <File>Assets\share.png</File>
+    <File>Assets\SplashScreen.png</File>
+    <File>Assets\SquareTile150x150.png</File>
+    <File>Assets\SquareTile71x71.png</File>
+    <File>Assets\StoreLogo.png</File>
+    <File>Assets\Tiles\FlipCycleTileLarge.png</File>
+    <File>Assets\Tiles\FlipCycleTileMedium.png</File>
+    <File>Assets\Tiles\FlipCycleTileSmall.png</File>
+    <File>Assets\Tiles\IconicTileMediumLarge.png</File>
+    <File>Assets\Tiles\IconicTileSmall.png</File>
+    <File>Assets\WideLogo.png</File>
+    <File>BugSense\BugSense - SDK License Agreement.txt</File>
+    <File>omeddle-large.png</File>
+    <File>AppManifest.xaml</File>
+    <File>BugSense-WP8.dll</File>
+    <File>Coding4Fun.Toolkit.Controls.dll</File>
+    <File>Microsoft.Phone.Controls.dll</File>
+    <File>Microsoft.Phone.Controls.Toolkit.dll</File>
+    <File Type="PCL">Newtonsoft.Json.dll</File>
+    <File Type="PCL">Omegle.dll</File>
+    <File Type="PCL">System.Net.Http.dll</File>
+    <File Type="PCL">System.Net.Http.Extensions.dll</File>
+    <File Type="PCL">System.Net.Http.Primitives.dll</File>
+    <File>TileUpdateAgent.dll</File>
+    <File>Newtonsoft.Json.xml</File>
+    <File>System.Net.Http.xml</File>
+    <File>System.Net.Http.Extensions.xml</File>
+    <File>System.Net.Http.Primitives.xml</File>
+    <File>omeddle.png</File>
+    <File>WMAppManifest.xml</File>
+    <File>AppxManifest.xml</File>
+  </XAPFiles>
+  <APPXFiles />
+</Files>

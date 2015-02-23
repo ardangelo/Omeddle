@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Deployment xmlns="http://schemas.microsoft.com/windowsphone/2014/deployment" AppPlatformVersion="8.1">
+  <DefaultLanguage xmlns="" code="en-US" />
+  <Languages xmlns="">
+    <Language code="en" />
+    <Language code="de-DE" />
+  </Languages>
+  <App xmlns="" ProductID="{5c436c04-fdb4-4a45-955a-c095420f2744}" Title="Omeddle" RuntimeType="Silverlight" Version="1.2.2.0" Genre="apps.normal" Author="Andrew D'Angelo" Description="Don't just chat with Omegle users, meddle with them!" Publisher="Andrew D'Angelo" PublisherID="{cee5845b-84b3-412d-bb73-0385e83a49f1}">
+    <IconPath IsRelative="true" IsResource="false">omeddle.png</IconPath>
+    <Capabilities>
+      <Capability Name="ID_CAP_NETWORKING" />
+      <Capability Name="ID_CAP_SENSORS" />
+      <Capability Name="ID_CAP_MEDIALIB_PHOTO" />
+      <Capability Name="ID_CAP_ISV_CAMERA" />
+    </Capabilities>
+    <Tasks>
+      <DefaultTask Name="_default" NavigationPage="MainPage.xaml" ActivationPolicy="Resume" />
+      <ExtendedTask Name="BackgroundTask">
+        <BackgroundServiceAgent Specifier="ScheduledTaskAgent" Name="TileUpdateAgent" Source="TileUpdateAgent" Type="TileUpdateAgent.ScheduledAgent" />
+      </ExtendedTask>
+    </Tasks>
+    <Tokens>
+      <PrimaryToken TokenID="OmegleITMToken" TaskName="_default">
+        <TemplateFlip>
+          <SmallImageURI IsRelative="true" IsResource="false">omeddle.png</SmallImageURI>
+          <Count>0</Count>
+          <BackgroundImageURI IsRelative="true" IsResource="false">omeddle.png</BackgroundImageURI>
+          <Title>Omeddle</Title>
+          <BackContent></BackContent>
+          <BackBackgroundImageURI></BackBackgroundImageURI>
+          <BackTitle></BackTitle>
+          <LargeBackgroundImageURI IsRelative="true" IsResource="false">omeddle-large.png</LargeBackgroundImageURI>
+          <LargeBackContent />
+          <LargeBackBackgroundImageURI IsRelative="true" IsResource="false"></LargeBackBackgroundImageURI>
+          <DeviceLockImageURI></DeviceLockImageURI>
+          <HasLarge>True</HasLarge>
+        </TemplateFlip>
+      </PrimaryToken>
+    </Tokens>
+    <ScreenResolutions>
+      <ScreenResolution Name="ID_RESOLUTION_WVGA" />
+      <ScreenResolution Name="ID_RESOLUTION_WXGA" />
+      <ScreenResolution Name="ID_RESOLUTION_HD720P" />
+    </ScreenResolutions>
+  </App>
+</Deployment>
+<!-- WPSDK Version 8.1.12358 -->

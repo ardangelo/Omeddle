@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Omeddle", "OmegleITM\Omeddle.csproj", "{5C436C04-FDB4-4A45-955A-C095420F2744}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Omegle", "OmeglePCL\Omegle.csproj", "{4C0AB845-3E01-4DC6-A118-24C8C2A48A6A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TileUpdateAgent", "TileUpdateAgent\TileUpdateAgent.csproj", "{3C283B8E-D184-443F-898B-5D5A8ACCE664}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|ARM = Debug|ARM
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|ARM = Release|ARM
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5C436C04-FDB4-4A45-955A-C095420F2744}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C436C04-FDB4-4A45-955A-C095420F2744}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C436C04-FDB4-4A45-955A-C095420F2744}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{5C436C04-FDB4-4A45-955A-C095420F2744}.Debug|ARM.ActiveCfg = Debug|ARM
+		{5C436C04-FDB4-4A45-955A-C095420F2744}.Debug|ARM.Build.0 = Debug|ARM
+		{5C436C04-FDB4-4A45-955A-C095420F2744}.Debug|ARM.Deploy.0 = Debug|ARM
+		{5C436C04-FDB4-4A45-955A-C095420F2744}.Debug|x86.ActiveCfg = Debug|x86
+		{5C436C04-FDB4-4A45-955A-C095420F2744}.Debug|x86.Build.0 = Debug|x86
+		{5C436C04-FDB4-4A45-955A-C095420F2744}.Debug|x86.Deploy.0 = Debug|x86
+		{5C436C04-FDB4-4A45-955A-C095420F2744}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C436C04-FDB4-4A45-955A-C095420F2744}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C436C04-FDB4-4A45-955A-C095420F2744}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{5C436C04-FDB4-4A45-955A-C095420F2744}.Release|ARM.ActiveCfg = Release|ARM
+		{5C436C04-FDB4-4A45-955A-C095420F2744}.Release|ARM.Build.0 = Release|ARM
+		{5C436C04-FDB4-4A45-955A-C095420F2744}.Release|ARM.Deploy.0 = Release|ARM
+		{5C436C04-FDB4-4A45-955A-C095420F2744}.Release|x86.ActiveCfg = Release|x86
+		{5C436C04-FDB4-4A45-955A-C095420F2744}.Release|x86.Build.0 = Release|x86
+		{5C436C04-FDB4-4A45-955A-C095420F2744}.Release|x86.Deploy.0 = Release|x86
+		{4C0AB845-3E01-4DC6-A118-24C8C2A48A6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C0AB845-3E01-4DC6-A118-24C8C2A48A6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C0AB845-3E01-4DC6-A118-24C8C2A48A6A}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{4C0AB845-3E01-4DC6-A118-24C8C2A48A6A}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{4C0AB845-3E01-4DC6-A118-24C8C2A48A6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C0AB845-3E01-4DC6-A118-24C8C2A48A6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C0AB845-3E01-4DC6-A118-24C8C2A48A6A}.Release|ARM.ActiveCfg = Release|Any CPU
+		{4C0AB845-3E01-4DC6-A118-24C8C2A48A6A}.Release|x86.ActiveCfg = Release|Any CPU
+		{3C283B8E-D184-443F-898B-5D5A8ACCE664}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C283B8E-D184-443F-898B-5D5A8ACCE664}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C283B8E-D184-443F-898B-5D5A8ACCE664}.Debug|ARM.ActiveCfg = Debug|ARM
+		{3C283B8E-D184-443F-898B-5D5A8ACCE664}.Debug|ARM.Build.0 = Debug|ARM
+		{3C283B8E-D184-443F-898B-5D5A8ACCE664}.Debug|x86.ActiveCfg = Debug|x86
+		{3C283B8E-D184-443F-898B-5D5A8ACCE664}.Debug|x86.Build.0 = Debug|x86
+		{3C283B8E-D184-443F-898B-5D5A8ACCE664}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C283B8E-D184-443F-898B-5D5A8ACCE664}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C283B8E-D184-443F-898B-5D5A8ACCE664}.Release|ARM.ActiveCfg = Release|ARM
+		{3C283B8E-D184-443F-898B-5D5A8ACCE664}.Release|ARM.Build.0 = Release|ARM
+		{3C283B8E-D184-443F-898B-5D5A8ACCE664}.Release|x86.ActiveCfg = Release|x86
+		{3C283B8E-D184-443F-898B-5D5A8ACCE664}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
